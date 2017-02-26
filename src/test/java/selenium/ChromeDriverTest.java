@@ -13,7 +13,7 @@ public class ChromeDriverTest {
     WebDriver driver;
     @Test
     public void testChrome(){
-        String exePath = "C:\\drivers\\chromedriver.exe";
+        String exePath = "c:/apps/SeleniumDrivers/chromedriver.exe";
         System.setProperty("webdriver.chrome.driver", exePath);
         driver = new ChromeDriver();
         driver.get("http://www.yahoo.com");
